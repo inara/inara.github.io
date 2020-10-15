@@ -11,6 +11,8 @@ function App() {
             direction="column"
             justify="center"
             alignItems="center"
+            spacing={0}
+            style={{minHeight: '100vh'}}
         >
             <Grid item xs={12}>
                 <ProfilePic/>

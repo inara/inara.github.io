@@ -11,10 +11,10 @@ function Bio() {
             justify="center"
             alignItems="center"
         >
-            <Grid item xs={12}>
+            <Grid item xs={12} style={{marginTop: '-10px'}}>
                 <h1 style={{fontFamily: 'Raleway', fontWeight: 'bold', fontSize: '3em'}}>Hi, I'm Inara!</h1>
             </Grid>
-            <Grid item xs={12}>
+            <Grid item xs={12} style={{marginTop: '-40px'}}>
                 <h3 style={{fontFamily: 'Raleway', fontWeight: 'normal'}}>I'm a software engineer at Google.</h3>
             </Grid>
         </Grid>
