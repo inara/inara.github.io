@@ -3,6 +3,7 @@ import './App.css';
 import ProfilePic from "./components/ProfilePic";
 import Bio from "./components/Bio";
 import Grid from "@material-ui/core/Grid";
+import SocialMedia from "./components/SocialMedia";
 
 function App() {
     return (
@@ -19,6 +20,9 @@ function App() {
             </Grid>
             <Grid item xs={12}>
                 <Bio/>
+            </Grid>
+            <Grid item xs={12}>
+                <SocialMedia/>
             </Grid>
         </Grid>
     );
